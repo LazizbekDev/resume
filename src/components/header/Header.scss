@@ -1,0 +1,39 @@
+.header {
+  background: white !important;
+  padding: 0 22px 0 0;
+  box-shadow: 0 2px 92px 0 rgba(0, 0, 0, 0.07);
+  border-radius: 6px;
+  margin-bottom: 20px;
+  user-select: none;
+  //  box-shadow: 0 2px 19px rgba(0, 0, 0, 0.07);
+
+  .home {
+    padding: 22px;
+    display: grid;
+    place-items: center;
+    border-top-left-radius: inherit;
+    border-bottom-left-radius: inherit;
+  }
+
+  .LeftSide {
+    margin-right: auto;
+  }
+
+  .rightSide {
+    display: flex !important;
+    align-items: center !important;
+    justify-content: space-between;
+    padding: 7.5px 0 7.5px 15px !important;
+    flex-wrap: wrap;
+    align-self: center !important;
+    a {
+      .MuiSvgIcon-root {
+        font-size: 18px;
+        margin-right: 8px;
+        color: black;
+      }
+    }
+  }
+
+
+}

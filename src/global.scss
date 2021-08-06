@@ -1,0 +1,99 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  background-image: url("/images/bg-1.png");
+  background-color: #fafafa;
+  background-size: cover;
+  background-attachment: fixed;
+  overflow-x: hidden;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style: none;
+}
+
+a{
+  text-decoration: none;
+  font-size: inherit;
+  color: inherit;
+}
+
+img, svg{
+  max-width: 100%;
+  object-fit: cover;
+}
+
+button{
+  outline: none
+}
+
+.localBtn {
+  padding: 10px 14px;
+  border-radius: 20px !important;
+  transition: .3s;
+  border: 2px solid transparent !important;
+
+  &:hover {
+    border: 2px solid var(--main-color) !important;
+    background: white !important;
+  }
+
+  @media only screen and (max-width: 481px) {
+    font-size: 13px !important;
+    padding: 7px 11px;
+  }
+}
+
+.width {
+  width: 100%;
+  position: relative;
+  display: grid;
+  place-items: center;
+  margin-top: 20px;
+}
+
+.pointer {
+  cursor: pointer;
+  @media only screen and (max-width: 959px) {
+    padding: 15px !important;
+  }
+}
+
+::selection {
+  background-color: #1e1e1e;
+  color: #c2c2c2;
+}
+
+.MuiTypography-paragraph {
+  margin-bottom: -6px !important;
+}
+
+.block {
+  background: #fff;
+  border-radius: 6px;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.37);
+  margin-left: 5px;
+  margin-right: 5px;
+  width: 90%;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+
+  .line {
+    margin-right: 10px;
+    transition: .3s;
+  }
+  &:hover {
+    color: #111;
+  }
+}

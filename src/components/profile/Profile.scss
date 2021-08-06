@@ -1,0 +1,46 @@
+.profile {
+  background: white;
+  border-radius: 6px;
+  width: 100%;
+  display: inline-block;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.27);
+  user-select: none;
+
+  .profile_name {
+    line-height: 10px;
+    padding: 20px;
+
+    .name {
+      text-transform: uppercase;
+      font-size: 17px;
+      font-weight: bold;
+    }
+
+    .job {
+      font-size: 13px;
+      color: #777;
+
+    }
+  }
+
+  .profile_image {
+    margin-top: 10px;
+    -webkit-clip-path: polygon(0 9%, 100% 0, 100% 94%, 0 100%);
+    clip-path: polygon(0 9%, 100% 0, 100% 94%, 0 100%);
+  }
+
+  .profile_information {
+    top: 0;
+    left: 0;
+    margin: -30px 10px 30px;
+  }
+
+  .downloadIcon {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: #fff;
+    color: #1e1e1e;
+    padding: 2px;
+  }
+}
